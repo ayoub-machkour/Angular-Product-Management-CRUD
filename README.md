@@ -7,7 +7,7 @@ The project uses Bootstrap for styling and JSON Server for simulating a backend 
 Before starting the project, make sure to install the following dependencies:
 1. JSON Server: To simulate the backend API for product management.
 - `npm install -g json-server`
-1. Concurrently: To run both the Angular app and JSON server simultaneously.
+2. Concurrently: To run both the Angular app and JSON server simultaneously.
 - `npm install concurrently`
 
 ## Running the Project :
