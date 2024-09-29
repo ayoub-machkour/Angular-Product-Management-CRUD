@@ -1,0 +1,42 @@
+<div class="container-md p-2">
+    <div class="card">
+        <div class="card-header">
+            <h1>Listes des Produit</h1>
+        </div>
+        <div class="card-body">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let prd of products">
+                        <td>{{prd.nom}}</td>
+                        <td>{{prd.prix}}</td>
+                        <td>{{prd.category}}</td>
+                  
+                        <td>
+                        <button (click)="handleDeleteProduct(prd)" class="btn btn-outline-danger">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                        </td>
+
+                        <td>
+                        <button (click)="handleUpdateProduct(prd)" class="btn btn-outline-success">
+                            <i class="bi bi-pencil"></i>
+                        </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

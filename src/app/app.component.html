@@ -1,0 +1,21 @@
+<nav class="p-3">
+  <ul class="nav nav-pills">
+    <li *ngFor="let lien of listLien">
+      <button
+      
+      (click)="SetCurrentLien(lien)" routerLink="{{lien.route}}"
+    
+      [class] =" lien == currentLien ? 'btn-info' :'btn-outline-info'"
+    
+      class="btn ms-1"
+
+      >{{lien.nom}}
+      <i class="bi {{lien.icon}}"></i> 
+    </button>
+
+  </ul>
+
+</nav>
+
+
+<router-outlet></router-outlet>

@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": "2",
+      "nom": "Samsung",
+      "category": "smartphone",
+      "prix": "09"
+    },
+    {
+      "id": "3",
+      "nom": "Pedator",
+      "category": "Laptop",
+      "prix": 21324
+    },
+    {
+      "id": "ce26",
+      "nom": "Lahcen",
+      "category": "Humain",
+      "prix": "4700"
+    },
+    {
+      "id": "02ec",
+      "nom": "New",
+      "category": "weew",
+      "prix": "23"
+    }
+  ]
+}

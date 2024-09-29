@@ -1,0 +1,28 @@
+{
+    "products":[
+        {
+            "id":1,
+            "nom":"Iphone",
+            "category":"smartphone",
+            "prix":12333
+        },
+        {
+            "id":2,
+            "nom":"Smasung",
+            "category":"smartphone",
+            "prix":1232
+        },
+        {
+            "id":3,
+            "nom":"Razer",
+            "category":"Laptop",
+            "prix":21324
+        },
+        {
+            "id":4,
+            "nom":"Dell-Xps",
+            "category":"Laptop",
+            "prix":5321
+        }
+    ]
+}
